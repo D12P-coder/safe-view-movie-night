@@ -1,9 +1,8 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { useToast } from '@/components/ui/use-toast';
-import { Play, Pause, Volume2, Volume1, VolumeX, Maximize, SkipForward, SkipBack } from 'lucide-react';
+import { Play, Pause, Volume2, Volume1, VolumeX, Maximize, SkipForward, SkipBack, Shield } from 'lucide-react';
 
 interface VideoPlayerProps {
   videoSrc?: string;
